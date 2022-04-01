@@ -9,7 +9,7 @@ dockerpath=galactican/endpoint
 
 # Step 2:  
 # Authenticate & tag
-docker login --username=galactican --password-stdin
+docker login --username=galactican
 docker tag endpoint $dockerpath
 
 echo "Docker ID and Image: $dockerpath"
